@@ -78,6 +78,9 @@ Complete the Connection Test and click Finish.
     * Click Kubernetes Manifest and download the YAML file.
     
     * Apply the YAML in your *OpenShift cluster* using the *oc command*.
+      ```
+       oc apply -f harness-delegate.yml
+      ```
 
      ![image](https://github.com/user-attachments/assets/0b5089df-68af-4696-add0-5aac47a8fa73)
      
